@@ -15,6 +15,11 @@ function ProductCarousel() {
       {error?.data?.message || error.error || "An error occurred"}
     </Message>
   ) : (
+    // return error ? (
+    //   // <Message variant="danger">{error}</Message>
+    //   <Message variant="danger">
+    //     {error?.data?.message || error.error || "An error occurred"}
+    //   </Message>
     <Carousel pause="hover" className="bg-primary mb-4">
       {products.map((product) => (
         <Carousel.Item key={product._id}>

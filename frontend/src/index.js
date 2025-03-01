@@ -64,7 +64,6 @@ const router = createBrowserRouter(
     </Route>
   )
 );
-// :pageNumber
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
